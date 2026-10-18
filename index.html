@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO tags: help search engines understand this page -->
+  <title>SearchNest - Simple Web Search Engine Page</title>
+  <meta name="description" content="SearchNest is a simple and fast search page. Search the web using Google, DuckDuckGo or Bing from one place.">
+  <meta name="keywords" content="search engine, web search, SearchNest, college project, HTML, CSS">
+  <meta name="author" content="Your Name">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo-small">SearchNest</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main search area -->
+  <main>
+    <h1 class="logo">Search<span>Nest</span></h1>
+    <p class="tagline">Search the web in one simple place</p>
+
+    <!-- The form sends your words to the search engine you click -->
+    <form action="https://duckduckgo.com/" method="get" target="_blank">
+      <input type="search" name="q" placeholder="Type something to search..." required autofocus>
+
+      <div class="buttons">
+        <button type="submit" formaction="https://www.google.com/search">Google Search</button>
+        <button type="submit" formaction="https://duckduckgo.com/">DuckDuckGo</button>
+        <button type="submit" formaction="https://www.bing.com/search">Bing</button>
+      </div>
+    </form>
+
+    <!-- Quick links -->
+    <section class="quick-links">
+      <h2>Quick Links</h2>
+      <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>
+      <a href="https://github.com" target="_blank">GitHub</a>
+      <a href="https://news.google.com" target="_blank">News</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SearchNest | College Project | Made with HTML and CSS</p>
+  </footer>
+
+</body>
+</html>
